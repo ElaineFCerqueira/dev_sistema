@@ -22,10 +22,23 @@ for v in a:
     print(v)
 
 
+#Exercicio 02
 
 
+def bubble(b):
+            
+            if len(b) <=1:
+                b2 = b
+            else:
+                for j in range(len(b)):
+                    for i in range(len(b)-1):
+                        if b[i] > b[i+1]:
+                         b2 = b[i+1]
+                         b[i+1] = b[i]
+                         b[i] = b2
+            print(b)
 
-
+b =[2,9,7,4,6]
 
 
 

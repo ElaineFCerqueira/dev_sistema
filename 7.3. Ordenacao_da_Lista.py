@@ -1,5 +1,6 @@
 
-
+import os
+os.system('cls||clear')
 
 
 #BubbleSort (ou ordenação por flutuação)
@@ -15,6 +16,9 @@ def bubble(A):
                     A[i] = Aux
         sA = A
     print(sA)
+
+
+
 
 
 a = [5,3,2,4,1,6]
